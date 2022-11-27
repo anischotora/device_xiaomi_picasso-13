@@ -13,7 +13,8 @@ Then go to the source folder and run:
 
 ```bash
 . build/envsetup.sh
-brunch picasso
+lunch aosp_picasso-userdebug
+m bacon -j$(nproc -all)
 ```
 
 # Device specifications
